@@ -9,18 +9,18 @@
 - [Certifications](#certifications)
 - [Contact Me](#contact-me)
 
-### About Me {#about-me}
+## About Me {#about-me}
 Experienced Data Analyst and Survey Researcher with over 9 years of experience in quantitative and qualitative research methods, data analysis, and project management. Proficient in advanced statistical techniques and programming languages including SAS, R, Python, and Stata. Demonstrated ability to lead complex research projects, effectively communicate results to diverse stakeholders, and manage and mentor junior staff. Recognized for contributions to high-impact research projects, commitment to methodological rigor, and collegiality.
 
-### Projects {#projects}
+## Projects {#projects}
 (tbd)
 
-### Skills and Competencies {#skills-competencies}
+## Skills and Competencies {#skills-competencies}
 * Programming Languages: Python, R, SAS, SQL, Stata
 * Tools: Git/GitHub, Microsoft Office Suite
 * Competencies: Project Management, Client Management, Leadership and Mentoring
 
-### Professional Experience {#prof-experience}
+## Professional Experience {#prof-experience}
 **Research Methodologist, NORC at the University of Chicago *(November 2020 - March 2025)***
 * TBD
   
@@ -30,7 +30,7 @@ Experienced Data Analyst and Survey Researcher with over 9 years of experience i
 **Consultant, The World Bank *(April 2014 - October 2017)***
 * TBD
 
-### Education {#education}
+## Education {#education}
 **Harris School of Public Policy, The University of Chicago *(June 2020)***
 * MPP
   
@@ -38,7 +38,7 @@ Experienced Data Analyst and Survey Researcher with over 9 years of experience i
 * BA Economics (with Honors)
 * BS Mathematics
 
-### Certifications {#certifications}
+## Certifications {#certifications}
 
-### Contact Me {#contact-me}
+## Contact Me {#contact-me}
 **Email:** <jarretangbazo@gmail.com> | [LinkedIn](https://linkedin.com/in/jarretangbazo)
