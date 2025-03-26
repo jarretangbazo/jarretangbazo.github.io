@@ -16,24 +16,25 @@ Experienced Data Analyst and Survey Researcher with over 9 years of experience i
 (tbd)
 
 ## Skills and Competencies {#skills-competencies}
-* Programming Languages: Python, R, SAS, SQL, Stata
+* Programming Languages: Python, R, SAS, SQL, Stata, HTML, CSS
 * Tools: Git/GitHub, Microsoft Office Suite
 * Competencies: Project Management, Client Management, Leadership and Mentoring
 
 ## Professional Experience {#prof-experience}
-**Research Methodologist, NORC at the University of Chicago *(November 2020 - March 2025)***
-* TBD
+**NORC at the University of Chicago *(November 2020 - March 2025)***
 
-**NORC at the University of Chicago *(11/20 - 03/25)***
-
-Research Methdologist
+*Research Methdologist*
 * Win 1
 * Win 2
   
-**Research Associate, Innovations for Poverty Action *(January 2018 - August 2018)***
+**Innovations for Poverty Action *(January 2018 - August 2018)***
+
+*Research Associate*
 * TBD
 
-**Consultant, The World Bank *(April 2014 - October 2017)***
+**The World Bank *(April 2014 - October 2017)***
+
+*Consultant*
 * TBD
 
 ## Education {#education}
