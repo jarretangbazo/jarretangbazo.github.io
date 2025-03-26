@@ -25,6 +25,7 @@ Experienced Data Analyst and Survey Researcher with over 9 years of experience i
 * TBD
 
 **NORC at the University of Chicago *(11/20 - 03/25)***
+
 Research Methdologist
 * Win 1
 * Win 2
