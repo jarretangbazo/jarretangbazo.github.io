@@ -23,6 +23,11 @@ Experienced Data Analyst and Survey Researcher with over 9 years of experience i
 ## Professional Experience {#prof-experience}
 **Research Methodologist, NORC at the University of Chicago *(November 2020 - March 2025)***
 * TBD
+
+**NORC at the University of Chicago *(11/20 - 03/25)***
+Research Methdologist
+* Win 1
+* Win 2
   
 **Research Associate, Innovations for Poverty Action *(January 2018 - August 2018)***
 * TBD
