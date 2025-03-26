@@ -21,16 +21,21 @@ Experienced Data Analyst and Survey Researcher with over 9 years of experience i
 * Competencies: Project Management, Client Management, Leadership and Mentoring
 
 ### Professional Experience {#prof-experience}
-* Research Methodologist | NORC at the University of Chicago (November 2020 - March 2025)
-* Research Associate | Innovations for Poverty Action (January 2018 - August 2018)
-* Consultant | The World Bank (April 2014 - October 2017)
+**Research Methodologist, NORC at the University of Chicago *(November 2020 - March 2025)***
+* TBD
+  
+**Research Associate, Innovations for Poverty Action *(January 2018 - August 2018)***
+* TBD
+
+**Consultant, The World Bank *(April 2014 - October 2017)***
+*TBD
 
 ### Education {#education}
 MPP | Harris School of Public Policy, The University of Chicago (June 2020)
 
 BA Economics (with Honors) | University of Maryland, College Park (May 2013)
 
-BS Mathematics | University of Maryland, College Park
+BS Mathematics | University of Maryland, College Park (May 2013)
 
 ### Certifications {#certifications}
 
