@@ -27,7 +27,9 @@ Experienced Data Analyst and Survey Researcher with over 9 years of experience i
 
 ### Education {#education}
 MPP | Harris School of Public Policy, The University of Chicago (June 2020)
+
 BA Economics (with Honors) | University of Maryland, College Park (May 2013)
+
 BS Mathematics | University of Maryland, College Park
 
 ### Certifications {#certifications}
