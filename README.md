@@ -33,4 +33,4 @@ BS Mathematics | University of Maryland, College Park
 ### Certifications {#certifications}
 
 ### Contact Me {#contact-me}
-***Email:*** <jarretangbazo@gmail.com> | [LinkedIn](https://linkedin.com/in/jarretangbazo)
+**Email:** <jarretangbazo@gmail.com> | [LinkedIn](https://linkedin.com/in/jarretangbazo)
