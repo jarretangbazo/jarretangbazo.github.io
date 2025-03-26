@@ -28,14 +28,15 @@ Experienced Data Analyst and Survey Researcher with over 9 years of experience i
 * TBD
 
 **Consultant, The World Bank *(April 2014 - October 2017)***
-*TBD
+* TBD
 
 ### Education {#education}
-MPP | Harris School of Public Policy, The University of Chicago (June 2020)
-
-BA Economics (with Honors) | University of Maryland, College Park (May 2013)
-
-BS Mathematics | University of Maryland, College Park (May 2013)
+**Harris School of Public Policy, The University of Chicago *(June 2020)***
+* MPP
+  
+**University of Maryland, College Park *(May 2013)***
+* BA Economics (with Honors)
+* BS Mathematics
 
 ### Certifications {#certifications}
 
