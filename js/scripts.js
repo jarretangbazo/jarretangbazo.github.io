@@ -10,7 +10,7 @@ if (hamburger && navLinks) {
         // Toggle hamburger animation
         hamburger.classList.toggle('active');
     });
-
+s
     // Add keyboard support for hamburger menu
     hamburger.addEventListener('keydown', (e) => {
         if (e.key === 'Enter' || e.key === ' ') {
