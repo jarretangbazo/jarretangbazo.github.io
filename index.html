@@ -6,8 +6,28 @@
     <title>Jarret Angbazo - Data Scientist | Energy & Infrastructure Finance</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: #000;
+            color: #fff;
+            padding: 8px;
+            text-decoration: none;
+            border-radius: 4px;
+            z-index: 1000;
+            font-size: 14px;
+        }
+        
+        .skip-link:focus {
+            top: 6px;
+        }
+    </style>
 </head> 
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <header>
         <nav>
             <div class="nav-container">
@@ -21,7 +41,7 @@
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="resume.html">Resume</a></li>
                 </ul>
-                <div class="hamburger">
+                <div class="hamburger" aria-label="Toggle navigation menu" role="button" tabindex="0">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -30,7 +50,7 @@
         </nav>
     </header>
 
-    <main>
+    <main id="main-content">
         <section class="hero">
             <div class="hero-content">
                 <h1>Data Scientist specializing in <span class="highlight">Energy & Infrastructure Finance</span> in Africa</h1>
@@ -41,8 +61,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="images/hero-image.jpg" alt="Jarret Angbazo">
-                <div class="placeholder-image">Image Placeholder</div>
+                <img src="images/hero-image.jpg" alt="Jarret Angbazo - Data Scientist specializing in Energy & Infrastructure Finance">
             </div>
         </section>
 
@@ -94,7 +113,7 @@
             <h2>Featured Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <img src="images/project1.jpg" alt="Project 1">
+                    <img src="images/project1.jpg" alt="Renewable Energy Investment Analysis dashboard showing solar project ROI predictions">
                     <div class="project-info">
                         <h3>Renewable Energy Investment Analysis</h3>
                         <p>Machine learning model to predict ROI for solar projects in West Africa.</p>
@@ -102,7 +121,7 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/project2.jpg" alt="Project 2">
+                    <img src="images/project2.jpg" alt="Infrastructure Risk Assessment Tool interface displaying transport investment risk models">
                     <div class="project-info">
                         <h3>Infrastructure Risk Assessment Tool</h3>
                         <p>Risk modeling tool for transport infrastructure investments.</p>
@@ -110,7 +129,7 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/project3.jpg" alt="Project 3">
+                    <img src="images/project3.jpg" alt="Energy Demand Forecasting visualization for urban planning">
                     <div class="project-info">
                         <h3>Energy Demand Forecasting</h3>
                         <p>Time series analysis for urban energy planning in growing cities.</p>
@@ -125,8 +144,8 @@
         <div class="footer-content">
             <p>&copy; 2025 Jarret Angbazo. All rights reserved</p>
             <div class="social-links">
-                <a href="https://www.linkedin.com/in/jarretangbazo" target="_blank">LinkedIn</a>
-                <a href="https://github.com/jarretangbazo" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/jarretangbazo" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/jarretangbazo" target="_blank" rel="noopener noreferrer">GitHub</a>
                 <a href="mailto:jarretangbazo@gmail.com">Email</a>
             </div>
         </div>
