@@ -10,7 +10,7 @@ Thoughts on energy analytics, infrastructure finance, and African development.
 
 <ul class="post-list">
   {% for post in site.posts %}
-    <li>
+    <li class="blog-preview">
       <h3>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </h3>

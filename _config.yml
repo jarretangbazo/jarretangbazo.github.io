@@ -5,6 +5,7 @@ description: "Data Scientist specializing in Energy & Infrastructure Finance in 
 baseurl: ""
 url: "https://jarretangbazo.github.io"
 github_username: jarretangbazo
+linkedin_username: jarretangbazo
 
 # Build Settings
 markdown: kramdown
@@ -15,18 +16,16 @@ plugins:
 
 # Custom Settings
 author: "Jarret Angbazo"
-#twitter_username: yourtwitter
-linkedin_username: jarretangbazo
 
 # Google Analytics
 google_analytics: G-HHSXHBKKSE
 
 # Navigation
-header_pages:
-  - about.md
-  - portfolio.md
-  - blog.md
-  - resume.md
+#header_pages:
+#  - about.md
+#  - portfolio.md
+#  - blog.md
+#  - resume.md
 
 # Exclude from processing
 exclude:
@@ -36,3 +35,4 @@ exclude:
   - vendor
   - README.md
   - docker-compose.yml
+  - archive

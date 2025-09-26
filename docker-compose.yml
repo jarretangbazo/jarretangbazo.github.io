@@ -7,4 +7,4 @@ services:
       - "35729:35729"
     volumes:
       - .:/srv/jekyll
-    command: jekyll serve --force_polling --livereload
+    command: jekyll serve --force_polling --livereload --drafts

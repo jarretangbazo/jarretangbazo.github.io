@@ -1,147 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jarret Angbazo - Data Scientist | Energy & Infrastructure Finance</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HHSXHBKKSE"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-HHSXHBKKSE');
-    </script>
-</head> 
-<body>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
+---
+layout: default
+title: "Home"
+permalink: /
+---
 
-    <header>
-        <nav>
-            <div class="nav-container">
-                <div class="logo">
-                    <h2>Jarret Angbazo</h2>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                </ul>
-                <div class="hamburger" aria-label="Toggle navigation menu" role="button" tabindex="0">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </nav>
-        
-    </header>
+<section class="hero">
+<div class="hero-content">
+    <h1>Data Scientist specializing in <span class="highlight">Energy & Infrastructure Finance</span> in Africa</h1>
+    <p>Transforming complex data into actionable insights for sustainable development and investment decisions</p>
+    <div class="cta-buttons">
+        <a href="portfolio.html" class="btn primary">View My Work →</a>
+        <a href="resume.html" class="btn secondary">Download Resume →</a>
+    </div>
+</div>
+<div class="hero-image">
+    <img src="images/hero-image.jpg" alt="Jarret Angbazo - Data Scientist specializing in Energy & Infrastructure Finance">
+</div>
+</section>
 
-    <main id="main-content">
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Data Scientist specializing in <span class="highlight">Energy & Infrastructure Finance</span> in Africa</h1>
-                <p>Transforming complex data into actionable insights for sustainable development and investment decisions</p>
-                <div class="cta-buttons">
-                    <a href="portfolio.html" class="btn primary">View My Work</a>
-                    <a href="resume.html" class="btn secondary">Download Resume</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="images/hero-image.jpg" alt="Jarret Angbazo - Data Scientist specializing in Energy & Infrastructure Finance">
-            </div>
-        </section>
+<section class="skills">
+<h2>Technical Expertise</h2>
+<div class="skills-grid">
+    <div class="skill-category">
+        <h3>Data Analysis</h3>
+        <ul>
+            <li>Python (Pandas, NumPy)</li>
+            <li>R Programming</li>
+            <li>SQL & Database Management</li>
+            <li>Statistical Modeling</li>
+        </ul>
+    </div>
+    <div class="skill-category">
+        <h3>Machine Learning</h3>
+        <ul>
+            <li>Predictive Modeling</li>
+            <li>Time Series Analysis</li>
+            <li>Natural Language Processing (NLP)</li>
+            <li>Deep Learning (TensorFlow)</li>
+        </ul>
+    </div>
+    <div class="skill-category">
+        <h3>Data Visualization</h3>
+        <ul>
+            <li>Tableau</li>
+            <li>Power BI</li>
+            <li>Matplotlib & Seaborn</li>
+            <li>D3.js</li>
+        </ul>
+    </div>
+    <div class="skill-category">
+        <h3>Domain Knowledge</h3>
+        <ul>
+            <li>Energy Economics</li>
+            <li>Infrastructure Finance</li>
+            <li>African Markets</li>
+            <li>Sustainable Development</li>   
+        </ul>
+    </div>
+</div>
+</section>
 
-        <section class="skills">
-            <h2>Technical Expertise</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Data Analysis</h3>
-                    <ul>
-                        <li>Python (Pandas, NumPy)</li>
-                        <li>R Programming</li>
-                        <li>SQL & Database Management</li>
-                        <li>Statistical Modeling</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Machine Learning</h3>
-                    <ul>
-                        <li>Predictive Modeling</li>
-                        <li>Time Series Analysis</li>
-                        <li>Natural Language Processing (NLP)</li>
-                        <li>Deep Learning (TensorFlow)</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Data Visualization</h3>
-                    <ul>
-                        <li>Tableau</li>
-                        <li>Power BI</li>
-                        <li>Matplotlib & Seaborn</li>
-                        <li>D3.js</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Domain Knowledge</h3>
-                    <ul>
-                        <li>Energy Economics</li>
-                        <li>Infrastructure Finance</li>
-                        <li>African Markets</li>
-                        <li>Renewable Energy Markets</li>
-                        <li>Project Finance Analysis</li>
-                        <li>Sustainable Development</li>   
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section class="featured-work">
-            <h2>Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <img src="images/project1.jpg" alt="Renewable Energy Investment Analysis dashboard showing solar project ROI predictions">
-                    <div class="project-info">
-                        <h3>Renewable Energy Investment Analysis</h3>
-                        <p>Machine learning model to predict ROI for solar projects in West Africa.</p>
-                        <a href="portfolio.html#project1" class="project-link">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="images/project2.jpg" alt="Infrastructure Risk Assessment Tool interface displaying transport investment risk models">
-                    <div class="project-info">
-                        <h3>Infrastructure Risk Assessment Tool</h3>
-                        <p>Risk modeling tool for transport infrastructure investments.</p>
-                        <a href="portfolio.html#project2" class="project-link">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="images/project3.jpg" alt="Energy Demand Forecasting visualization for urban planning">
-                    <div class="project-info">
-                        <h3>Energy Demand Forecasting</h3>
-                        <p>Time series analysis for urban energy planning in growing cities.</p>
-                        <a href="portfolio.html#project3" class="project-link">View Project</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2025 Jarret Angbazo. All rights reserved</p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/jarretangbazo" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://github.com/jarretangbazo" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="mailto:jarretangbazo@gmail.com">Email</a>
-            </div>
+<section class="featured-work">
+<h2>Featured Projects</h2>
+<div class="projects-grid">
+    <div class="project-card">
+        <img src="images/project1.jpg" alt="Renewable Energy Investment Analysis dashboard showing solar project ROI predictions">
+        <div class="project-info">
+            <h3>Renewable Energy Investment Analysis</h3>
+            <p>Machine learning model to predict ROI for solar projects in West Africa.</p>
+            <a href="portfolio.html#project1" class="project-link">View Project →</a>
         </div>
-    </footer>
-
-    <script src="js/scripts.js"></script>
-</body>
-</html>
+    </div>
+    <div class="project-card">
+        <img src="images/project2.jpg" alt="Infrastructure Risk Assessment Tool interface displaying transport investment risk models">
+        <div class="project-info">
+            <h3>Infrastructure Risk Assessment Tool</h3>
+            <p>Risk modeling tool for transport infrastructure investments.</p>
+            <a href="portfolio.html#project2" class="project-link">View Project →</a>
+        </div>
+    </div>
+    <div class="project-card">
+        <img src="images/project3.jpg" alt="Energy Demand Forecasting visualization for urban planning">
+        <div class="project-info">
+            <h3>Energy Demand Forecasting</h3>
+            <p>Time series analysis for urban energy planning in growing cities.</p>
+            <a href="portfolio.html#project3" class="project-link">View Project →</a>
+        </div>
+    </div>
+</div>
+</section>
