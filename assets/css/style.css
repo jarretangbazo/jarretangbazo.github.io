@@ -255,6 +255,91 @@ nav {
     border: 2px dashed #adb5bd;
 }
 
+/* Fix for hero section on homepage */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    margin: 2rem 0 4rem 0;
+    max-width: 1200px;
+}
+
+.hero-content {
+    padding-right: 1rem;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder-image {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: #666;
+    border: 2px dashed #adb5bd;
+}
+
+/* Better responsive behavior */
+@media (max-width: 968px) {
+    .hero {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+    }
+    
+    .hero-content {
+        padding-right: 0;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+    
+    .placeholder-image {
+        max-width: 300px;
+        height: 250px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+    
+    .placeholder-image {
+        height: 200px;
+        font-size: 1rem;
+    }
+}
+
 /* Skills and projects grids */
 .skills-grid, .projects-grid {
     display: grid;
