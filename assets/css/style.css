@@ -12,6 +12,20 @@ html {
     scroll-padding-top: var(--header-height);
 }
 
+/* Add section spacing */
+section {
+    margin-bottom: 4rem;
+    padding: 3rem 0;
+}
+
+p {
+    margin-bottom: 1.25rem;
+}
+
+ul li {
+    margin-bottom: 0.75rem;
+}
+
 * {
     margin: 0;
     padding: 0;
