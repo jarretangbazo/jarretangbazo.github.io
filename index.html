@@ -4,88 +4,137 @@ title: "Home"
 permalink: /
 ---
 
+<!-- =================================================================
+     HERO SECTION
+     Main introduction with call-to-action buttons
+     ================================================================= -->
 <section class="hero">
-<div class="hero-content">
-    <h1>Data Scientist specializing in <span class="highlight">Energy & Infrastructure Finance</span> in Africa</h1>
-    <p>Transforming complex data into actionable insights for sustainable development and investment decisions</p>
-    <div class="cta-buttons">
-        <a href="portfolio.html" class="btn primary">View My Work →</a>
-        <a href="resume.html" class="btn secondary">Download Resume →</a>
+    <div class="hero-content">
+        <h1>Data Scientist specializing in <span class="highlight">Energy & Infrastructure Finance</span> in Africa</h1>
+        <p>Transforming complex data into actionable insights for sustainable development and investment decisions</p>
+        
+        <!-- Call-to-action buttons -->
+        <div class="cta-buttons">
+            <a href="portfolio.html" class="btn primary">View My Work</a>
+            <a href="resume.html" class="btn secondary">Download Resume</a>
+        </div>
     </div>
-</div>
-<div class="hero-image">
-    <img src="assets/images/hero-image.jpg" alt="Jarret Angbazo - Data Scientist specializing in Energy & Infrastructure Finance">
-</div>
+    
+    <!-- Hero image section -->
+    <div class="hero-image">
+        <!-- Replace with actual image path or use placeholder -->
+        <img src="assets/images/hero-image.jpg" 
+             alt="Jarret Angbazo - Data Scientist specializing in Energy & Infrastructure Finance"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <!-- Placeholder shown if image doesn't load -->
+        <div class="placeholder-image" style="display: none;">
+            Energy & Infrastructure Analytics
+        </div>
+    </div>
 </section>
 
+<!-- =================================================================
+     TECHNICAL SKILLS SECTION
+     Grid layout showcasing four main skill categories
+     ================================================================= -->
 <section class="skills">
-<h2>Technical Expertise</h2>
-<div class="skills-grid">
-    <div class="skill-category">
-        <h3>Data Analysis</h3>
-        <ul>
-            <li>Python (Pandas, NumPy)</li>
-            <li>R Programming</li>
-            <li>SQL & Database Management</li>
-            <li>Statistical Modeling</li>
-        </ul>
+    <h2>Technical Expertise</h2>
+    
+    <div class="skills-grid">
+        <!-- Data Analysis Skills -->
+        <div class="skill-category">
+            <h3>Data Analysis</h3>
+            <ul>
+                <li>Python (Pandas, NumPy)</li>
+                <li>R Programming</li>
+                <li>SQL & Database Management</li>
+                <li>Statistical Modeling</li>
+            </ul>
+        </div>
+        
+        <!-- Machine Learning Skills -->
+        <div class="skill-category">
+            <h3>Machine Learning</h3>
+            <ul>
+                <li>Predictive Modeling</li>
+                <li>Time Series Analysis</li>
+                <li>Natural Language Processing (NLP)</li>
+                <li>Deep Learning (TensorFlow)</li>
+            </ul>
+        </div>
+        
+        <!-- Data Visualization Skills -->
+        <div class="skill-category">
+            <h3>Data Visualization</h3>
+            <ul>
+                <li>Tableau</li>
+                <li>Power BI</li>
+                <li>Matplotlib & Seaborn</li>
+                <li>D3.js</li>
+            </ul>
+        </div>
+        
+        <!-- Domain Expertise -->
+        <div class="skill-category">
+            <h3>Domain Knowledge</h3>
+            <ul>
+                <li>Energy Economics</li>
+                <li>Infrastructure Finance</li>
+                <li>African Markets</li>
+                <li>Sustainable Development</li>   
+            </ul>
+        </div>
     </div>
-    <div class="skill-category">
-        <h3>Machine Learning</h3>
-        <ul>
-            <li>Predictive Modeling</li>
-            <li>Time Series Analysis</li>
-            <li>Natural Language Processing (NLP)</li>
-            <li>Deep Learning (TensorFlow)</li>
-        </ul>
-    </div>
-    <div class="skill-category">
-        <h3>Data Visualization</h3>
-        <ul>
-            <li>Tableau</li>
-            <li>Power BI</li>
-            <li>Matplotlib & Seaborn</li>
-            <li>D3.js</li>
-        </ul>
-    </div>
-    <div class="skill-category">
-        <h3>Domain Knowledge</h3>
-        <ul>
-            <li>Energy Economics</li>
-            <li>Infrastructure Finance</li>
-            <li>African Markets</li>
-            <li>Sustainable Development</li>   
-        </ul>
-    </div>
-</div>
 </section>
 
+<!-- =================================================================
+     FEATURED PROJECTS SECTION
+     Showcase of three main portfolio projects with images
+     ================================================================= -->
 <section class="featured-work">
-<h2>Featured Projects</h2>
-<div class="projects-grid">
-    <div class="project-card">
-        <img src="images/project1.jpg" alt="Renewable Energy Investment Analysis dashboard showing solar project ROI predictions">
-        <div class="project-info">
-            <h3>Renewable Energy Investment Analysis</h3>
-            <p>Machine learning model to predict ROI for solar projects in West Africa.</p>
-            <a href="portfolio.html#project1" class="project-link">View Project →</a>
+    <h2>Featured Projects</h2>
+    
+    <div class="projects-grid">
+        <!-- Project 1: Renewable Energy Investment Analysis -->
+        <div class="project-card">
+            <!-- Project image with fallback -->
+            <img src="assets/images/project1.jpg" 
+                 alt="Renewable Energy Investment Analysis dashboard showing solar project ROI predictions"
+                 onerror="this.style.display='none';">
+            
+            <div class="project-info">
+                <h3>Renewable Energy Investment Analysis</h3>
+                <p>Machine learning model to predict ROI for solar projects in West Africa.</p>
+                <a href="portfolio.html#renewable-energy" class="project-link">View Project</a>
+            </div>
+        </div>
+        
+        <!-- Project 2: Infrastructure Risk Assessment Tool -->
+        <div class="project-card">
+            <!-- Project image with fallback -->
+            <img src="assets/images/project2.jpg" 
+                 alt="Infrastructure Risk Assessment Tool interface displaying transport investment risk models"
+                 onerror="this.style.display='none';">
+            
+            <div class="project-info">
+                <h3>Infrastructure Risk Assessment Tool</h3>
+                <p>Risk modeling framework for transport infrastructure investments.</p>
+                <a href="portfolio.html#infrastructure-risk" class="project-link">View Project</a>
+            </div>
+        </div>
+        
+        <!-- Project 3: Energy Demand Forecasting -->
+        <div class="project-card">
+            <!-- Project image with fallback -->
+            <img src="assets/images/project3.jpg" 
+                 alt="Energy Demand Forecasting visualization for urban planning"
+                 onerror="this.style.display='none';">
+            
+            <div class="project-info">
+                <h3>Energy Demand Forecasting</h3>
+                <p>Time series analysis for urban energy planning in growing cities.</p>
+                <a href="portfolio.html#energy-forecasting" class="project-link">View Project</a>
+            </div>
         </div>
     </div>
-    <div class="project-card">
-        <img src="images/project2.jpg" alt="Infrastructure Risk Assessment Tool interface displaying transport investment risk models">
-        <div class="project-info">
-            <h3>Infrastructure Risk Assessment Tool</h3>
-            <p>Risk modeling tool for transport infrastructure investments.</p>
-            <a href="portfolio.html#project2" class="project-link">View Project →</a>
-        </div>
-    </div>
-    <div class="project-card">
-        <img src="images/project3.jpg" alt="Energy Demand Forecasting visualization for urban planning">
-        <div class="project-info">
-            <h3>Energy Demand Forecasting</h3>
-            <p>Time series analysis for urban energy planning in growing cities.</p>
-            <a href="portfolio.html#project3" class="project-link">View Project →</a>
-        </div>
-    </div>
-</div>
 </section>
