@@ -3,8 +3,11 @@
     --header-height: 80px;
 }
 
-main, main-content {
+main, 
+.main-content,
+.content-wrapper {
     padding-top: calc(var(--header-height) + 20px);
+    min-height: calc(100vh - var(--header-height) - 20px);
 }
 
 html {
