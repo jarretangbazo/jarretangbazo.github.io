@@ -535,6 +535,7 @@ nav {
     gap: var(--space-xl);
 }
 
+/* Individual project cards need container constraint */
 .project-card {
     background: var(--background-primary);
     padding: var(--space-xl);
@@ -544,6 +545,10 @@ nav {
     border: 1px solid var(--border-color);
     display: flex;
     flex-direction: column;
+    max-width: var(--max-content-width);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: var(--space-xl);
 }
 
 .project-card:hover {
@@ -611,6 +616,16 @@ nav {
 /* =================================================================
    10. ABOUT PAGE SPECIFIC STYLES
    ================================================================= */
+/* Constrain all about page elements to container width */
+.focus-area,
+.skills-category-section,
+.education-item,
+.mission-section {
+    max-width: var(--max-content-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .mission-section {
     background: var(--background-primary);
     padding: var(--space-xl);
