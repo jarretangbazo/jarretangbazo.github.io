@@ -680,76 +680,77 @@ nav {
     color: var(--text-dark);
 }
 
-/* Education section container */
-.education-section {
-    background: var(--background-primary);
+/* Education grid layout */
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-xl);
+    margin: var(--space-2xl) 0;
+}
+
+.education-card {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    color: var(--background-primary);
     padding: var(--space-2xl);
-    border-radius: var(--radius-lg);
-    margin: var(--space-3xl) 0;
-    box-shadow: 0 4px 20px var(--shadow-light);
-}
-
-.education-section > h3 {
-    color: var(--primary-color);
-    font-size: var(--font-size-3xl);
-    margin-bottom: var(--space-2xl);
-    text-align: center;
+    border-radius: var(--radius-xl);
+    box-shadow: 0 10px 30px var(--shadow-medium);
+    transition: all var(--transition-base);
     position: relative;
-    padding-bottom: var(--space-md);
+    overflow: hidden;
 }
 
-.education-section > h3::after {
+.education-card::before {
     content: '';
     position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 3px;
-    background: var(--primary-color);
-    border-radius: 2px;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    transition: all var(--transition-slow);
 }
 
-/* Timeline container */
-.education-timeline {
+.education-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 15px 40px var(--shadow-strong);
+}
+
+.education-card:hover::before {
+    top: -30%;
+    right: -30%;
+}
+
+.education-card h4 {
+    color: var(--background-primary);
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--space-md);
     position: relative;
-    padding-left: var(--space-3xl);
-    margin-top: var(--space-2xl);
+    z-index: 1;
 }
 
-/* Vertical timeline line */
-.education-timeline::before {
-    content: '';
-    position: absolute;
-    left: 15px;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    background: linear-gradient(to bottom, var(--primary-color), var(--primary-light));
+.education-card .institution {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--space-sm);
+    position: relative;
+    z-index: 1;
 }
 
-.education-item {
-    background: var(--background-primary);
-    padding: var(--space-lg);
-    margin-bottom: var(--space-lg);
-    border-radius: var(--radius-md);
-    border: 1px solid var(--border-color);
+.education-card .year {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: var(--font-size-base);
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    padding-top: var(--space-sm);
+    margin-top: var(--space-md);
+    position: relative;
+    z-index: 1;
 }
 
-.education-item h4 {
-    color: var(--primary-color);
-    margin-bottom: var(--space-xs);
-}
-
-.institution {
-    color: var(--text-light);
-    font-style: italic;
-    margin-bottom: var(--space-xs);
-}
-
-.year {
-    color: var(--text-lighter);
-    font-size: var(--font-size-sm);
+.education-card .degree-icon {
+    font-size: 48px;
+    margin-bottom: var(--space-md);
+    opacity: 0.9;
 }
 
 /* =================================================================
