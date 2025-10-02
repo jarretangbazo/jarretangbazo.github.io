@@ -30,31 +30,23 @@ To leverage data science for improving energy access and infrastructure developm
 ## Professional Focus
 
 <div class="focus-area">
-
-### Energy Analytics
-Predictive modeling for renewable energy investments
-
+     <h3>Energy Analytics</h3>
+     <p>Predictive modeling for renewable energy investments</p>
 </div>
 
 <div class="focus-area">
-
-### Infrastructure Finance
-Risk assessment and ROI analysis for development projects
-
+     <h3>Infrastructure Finance</h3>
+     <p>Risk assessment and ROI analysis for development projects</p>
 </div>
 
 <div class="focus-area">
-
-### African Markets
-Specialized knowledge of Sub-Saharan African economic landscapes
-
+     <h3>African Markets</h3>
+     <p>Specialized knowledge of Sub-Saharan African economic landscapes</p>
 </div>
 
 <div class="focus-area">
-
-### Sustainable Development
-Data-driven approaches to UN Sustainable Development Goals
-
+     <h3>Sustainable Development</h3>
+     <p>Data-driven approaches to UN Sustainable Development Goals</p>
 </div>
 
 <!-- =================================================================
