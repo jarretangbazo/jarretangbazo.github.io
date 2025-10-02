@@ -4,28 +4,13 @@ title: "About"
 permalink: /about
 ---
 
-<!-- =================================================================
-     ABOUT PAGE - MAIN CONTENT
-     Professional background, mission, skills, and education
-     ================================================================= -->
-
 # About Me
 
 I'm a Data Scientist passionate about driving sustainable development in Africa through data-driven insights in energy and infrastructure finance.
 
-<!-- =================================================================
-     MISSION SECTION
-     Core purpose and professional focus
-     ================================================================= -->
-
 ## My Mission
 
 To leverage data science for improving energy access and infrastructure development across African markets, enabling better investment decisions and sustainable growth.
-
-<!-- =================================================================
-     PROFESSIONAL FOCUS AREAS
-     Four main areas of expertise
-     ================================================================= -->
 
 ## Professional Focus
 
@@ -48,11 +33,6 @@ To leverage data science for improving energy access and infrastructure developm
      <h3>Sustainable Development</h3>
      <p>Data-driven approaches to UN Sustainable Development Goals</p>
 </div>
-
-<!-- =================================================================
-     TECHNICAL SKILLS SECTION
-     Detailed breakdown of technical capabilities and domain expertise
-     ================================================================= -->
 
 ## Technical Skills
 
@@ -78,37 +58,25 @@ To leverage data science for improving energy access and infrastructure developm
 
 </div>
 
-<!-- =================================================================
-     EDUCATION SECTION
-     Academic credentials and background
-     ================================================================= -->
+## Education & Background
 
-<div class="education-section">
+<div class="education-minimal">
 
 <h3>Education</h3>
 
-<div class="education-timeline">
-
-<div class="education-item">
+<div class="education-item-minimal">
     <h4>Master of Public Policy (MPP)</h4>
     <div class="institution">University of Chicago</div>
     <div class="year">2020 • Certificate in Research Methods and Survey Research</div>
 </div>
 
-<div class="education-item">
+<div class="education-item-minimal">
     <h4>BA Economics (Honors) & BS Mathematics</h4>
     <div class="institution">University of Maryland, College Park</div>
     <div class="year">2013 • Honors thesis on economic development in emerging markets</div>
 </div>
 
 </div>
-
-</div>
-
-<!-- =================================================================
-     ANALYTICAL FOUNDATION
-     Educational approach and methodology
-     ================================================================= -->
 
 ### Analytical Foundation
 
@@ -144,11 +112,6 @@ My educational path provides a unique combination of technical rigor and policy 
 
 </div>
 
-<!-- =================================================================
-     AFRICAN ENERGY & INFRASTRUCTURE FOCUS
-     Current research interests and applications
-     ================================================================= -->
-
 ### African Energy & Infrastructure Focus
 
 I'm now applying this foundation to address data gaps in African energy and infrastructure planning, with particular interest in:
@@ -162,16 +125,11 @@ I'm now applying this foundation to address data gaps in African energy and infr
 
 I maintain current expertise through ongoing professional development in data science technologies and active engagement with African energy market research.
 
-<!-- =================================================================
-     CALL TO ACTION
-     Contact encouragement
-     ================================================================= -->
-
 ## Let's Connect
 
 I'm always interested in discussing data science opportunities in African energy and infrastructure development.
 
 <div class="cta-buttons">
     <a href="mailto:{{ site.email }}" class="btn primary">Get in Touch</a>
-    <a href="resume.html" class="btn secondary">View Resume</a>
+    <a href="/resume" class="btn secondary">View Resume</a>
 </div>

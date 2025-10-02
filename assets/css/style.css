@@ -616,41 +616,32 @@ nav {
 /* =================================================================
    10. ABOUT PAGE SPECIFIC STYLES
    ================================================================= */
+
 /* Constrain all about page elements to container width */
 .focus-area,
 .skills-category-section,
-.education-item,
+.education-minimal,
 .mission-section {
     max-width: var(--max-content-width);
     margin-left: auto;
     margin-right: auto;
 }
 
-.mission-section {
-    background: var(--background-primary);
-    padding: var(--space-xl);
-    border-radius: var(--radius-lg);
-    margin-bottom: var(--space-2xl);
-    border-left: 4px solid var(--primary-color);
-    box-shadow: 0 2px 10px var(--shadow-light);
-}
-
-.mission-section h2 {
-    margin-top: 0;
-    margin-bottom: var(--space-md);
-}
-
+/* Focus area cards */
 .focus-area {
     background: var(--background-primary);
     padding: var(--space-lg);
-    margin-bottom: var(--space-xl);
-    padding-bottom: var(--space-lg);
-    border-bottom: 1px solid var(--border-color);
+    margin-bottom: var(--space-lg);
     border-left: 4px solid var(--primary-color);
     border-radius: var(--radius-md);
     box-shadow: 0 2px 8px var(--shadow-light);
+    transition: all var(--transition-base);
 }
 
+.focus-area:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px var(--shadow-medium);
+}
 
 .focus-area h3 {
     color: var(--primary-color);
@@ -663,21 +654,33 @@ nav {
     color: var(--text-medium);
 }
 
-.focus-area:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
-}
-
+/* Skills category sections */
 .skills-category-section {
     margin-bottom: var(--space-2xl);
 }
 
-.skills-category-section h3 {
+.skills-category-section h3,
+.skills-category-section h4 {
     background: var(--background-secondary);
     padding: var(--space-md) var(--space-lg);
     margin-bottom: var(--space-md);
     border-radius: var(--radius-md);
     color: var(--text-dark);
+}
+
+/* Mission section (if used) */
+.mission-section {
+    background: var(--background-primary);
+    padding: var(--space-xl);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--space-2xl);
+    border-left: 4px solid var(--primary-color);
+    box-shadow: 0 2px 10px var(--shadow-light);
+}
+
+.mission-section h2 {
+    margin-top: 0;
+    margin-bottom: var(--space-md);
 }
 
 /* Minimalist education section */
@@ -703,6 +706,10 @@ nav {
     padding-left: var(--space-xl);
     margin-bottom: var(--space-xl);
     transition: all var(--transition-base);
+}
+
+.education-item-minimal:last-child {
+    margin-bottom: 0;
 }
 
 .education-item-minimal:hover {
