@@ -728,110 +728,28 @@ nav {
     background: linear-gradient(to bottom, var(--primary-color), var(--primary-light));
 }
 
-/* Individual education item */
 .education-item {
-    background: var(--background-secondary);
-    padding: var(--space-xl);
-    margin-bottom: var(--space-2xl);
-    border-radius: var(--radius-lg);
-    border: 2px solid var(--border-color);
-    position: relative;
-    transition: all var(--transition-base);
+    background: var(--background-primary);
+    padding: var(--space-lg);
+    margin-bottom: var(--space-lg);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
 }
 
-.education-item:hover {
-    transform: translateX(10px);
-    box-shadow: 0 8px 24px var(--shadow-medium);
-    border-color: var(--primary-color);
-}
-
-.education-item:last-child {
-    margin-bottom: 0;
-}
-
-/* Timeline dot/icon */
-.education-item::before {
-    content: '🎓';
-    position: absolute;
-    left: calc(-1 * var(--space-3xl) - 4px);
-    top: var(--space-lg);
-    width: 36px;
-    height: 36px;
-    background: var(--primary-color);
-    border: 4px solid var(--background-primary);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    box-shadow: 0 0 0 4px var(--primary-light);
-    z-index: 1;
-}
-
-/* Degree title */
 .education-item h4 {
     color: var(--primary-color);
-    font-size: var(--font-size-2xl);
-    margin-bottom: var(--space-sm);
-    font-weight: 700;
-}
-
-/* Institution name */
-.education-item .institution {
-    color: var(--text-dark);
-    font-weight: 600;
-    font-size: var(--font-size-lg);
     margin-bottom: var(--space-xs);
-    display: flex;
-    align-items: center;
-    gap: var(--space-xs);
 }
 
-.education-item .institution::before {
-    content: '🏛️';
-    font-size: var(--font-size-base);
-}
-
-/* Year/additional info */
-.education-item .year {
+.institution {
     color: var(--text-light);
-    font-size: var(--font-size-base);
     font-style: italic;
-    display: flex;
-    align-items: center;
-    gap: var(--space-xs);
-    margin-top: var(--space-sm);
-    padding: var(--space-sm) var(--space-md);
-    background: var(--background-primary);
-    border-radius: var(--radius-sm);
-    border-left: 3px solid var(--primary-color);
+    margin-bottom: var(--space-xs);
 }
 
-.education-item .year::before {
-    content: '📜';
+.year {
+    color: var(--text-lighter);
     font-size: var(--font-size-sm);
-}
-
-/* Mobile responsive */
-@media (max-width: 768px) {
-    .education-timeline {
-        padding-left: var(--space-2xl);
-    }
-    
-    .education-timeline::before {
-        left: 10px;
-    }
-    
-    .education-item::before {
-        left: calc(-1 * var(--space-2xl) - 2px);
-        width: 28px;
-        height: 28px;
-        font-size: 14px;
-    }
-    
-    .education-item {
-        padding: var(--space-lg);
-    }
 }
 
 /* =================================================================
