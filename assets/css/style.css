@@ -680,28 +680,158 @@ nav {
     color: var(--text-dark);
 }
 
-.education-item {
+/* Education section container */
+.education-section {
     background: var(--background-primary);
-    padding: var(--space-lg);
-    margin-bottom: var(--space-lg);
-    border-radius: var(--radius-md);
-    border: 1px solid var(--border-color);
+    padding: var(--space-2xl);
+    border-radius: var(--radius-lg);
+    margin: var(--space-3xl) 0;
+    box-shadow: 0 4px 20px var(--shadow-light);
 }
 
+.education-section > h3 {
+    color: var(--primary-color);
+    font-size: var(--font-size-3xl);
+    margin-bottom: var(--space-2xl);
+    text-align: center;
+    position: relative;
+    padding-bottom: var(--space-md);
+}
+
+.education-section > h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: var(--primary-color);
+    border-radius: 2px;
+}
+
+/* Timeline container */
+.education-timeline {
+    position: relative;
+    padding-left: var(--space-3xl);
+    margin-top: var(--space-2xl);
+}
+
+/* Vertical timeline line */
+.education-timeline::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(to bottom, var(--primary-color), var(--primary-light));
+}
+
+/* Individual education item */
+.education-item {
+    background: var(--background-secondary);
+    padding: var(--space-xl);
+    margin-bottom: var(--space-2xl);
+    border-radius: var(--radius-lg);
+    border: 2px solid var(--border-color);
+    position: relative;
+    transition: all var(--transition-base);
+}
+
+.education-item:hover {
+    transform: translateX(10px);
+    box-shadow: 0 8px 24px var(--shadow-medium);
+    border-color: var(--primary-color);
+}
+
+.education-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Timeline dot/icon */
+.education-item::before {
+    content: '🎓';
+    position: absolute;
+    left: calc(-1 * var(--space-3xl) - 4px);
+    top: var(--space-lg);
+    width: 36px;
+    height: 36px;
+    background: var(--primary-color);
+    border: 4px solid var(--background-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 0 0 0 4px var(--primary-light);
+    z-index: 1;
+}
+
+/* Degree title */
 .education-item h4 {
     color: var(--primary-color);
-    margin-bottom: var(--space-xs);
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--space-sm);
+    font-weight: 700;
 }
 
-.institution {
+/* Institution name */
+.education-item .institution {
+    color: var(--text-dark);
+    font-weight: 600;
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--space-xs);
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+}
+
+.education-item .institution::before {
+    content: '🏛️';
+    font-size: var(--font-size-base);
+}
+
+/* Year/additional info */
+.education-item .year {
     color: var(--text-light);
+    font-size: var(--font-size-base);
     font-style: italic;
-    margin-bottom: var(--space-xs);
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    margin-top: var(--space-sm);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--background-primary);
+    border-radius: var(--radius-sm);
+    border-left: 3px solid var(--primary-color);
 }
 
-.year {
-    color: var(--text-lighter);
+.education-item .year::before {
+    content: '📜';
     font-size: var(--font-size-sm);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .education-timeline {
+        padding-left: var(--space-2xl);
+    }
+    
+    .education-timeline::before {
+        left: 10px;
+    }
+    
+    .education-item::before {
+        left: calc(-1 * var(--space-2xl) - 2px);
+        width: 28px;
+        height: 28px;
+        font-size: 14px;
+    }
+    
+    .education-item {
+        padding: var(--space-lg);
+    }
 }
 
 /* =================================================================

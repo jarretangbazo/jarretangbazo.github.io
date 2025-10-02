@@ -83,23 +83,25 @@ To leverage data science for improving energy access and infrastructure developm
      Academic credentials and background
      ================================================================= -->
 
-## Education & Background
+<div class="education-section">
 
-### Education
+<h3>Education</h3>
+
+<div class="education-timeline">
 
 <div class="education-item">
-
-#### Master of Public Policy (MPP)
-<div class="institution">University of Chicago, 2020</div>
-<div class="year">Certificate in Research Methods and Survey Research</div>
-
+    <h4>Master of Public Policy (MPP)</h4>
+    <div class="institution">University of Chicago</div>
+    <div class="year">2020 • Certificate in Research Methods and Survey Research</div>
 </div>
 
 <div class="education-item">
+    <h4>BA Economics (Honors) & BS Mathematics</h4>
+    <div class="institution">University of Maryland, College Park</div>
+    <div class="year">2013 • Honors thesis on economic development in emerging markets</div>
+</div>
 
-#### BA Economics (Honors) & BS Mathematics
-<div class="institution">University of Maryland, College Park, 2013</div>
-<div class="year">Honors thesis on economic development in emerging markets</div>
+</div>
 
 </div>
 
