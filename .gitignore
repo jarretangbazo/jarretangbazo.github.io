@@ -7,3 +7,9 @@ vendor/
 .env
 *.log
 archive/          # Exclude the archive folder from GitHub
+Gemfile.lock     # Exclude Gemfile.lock to avoid dependency issues
+
+# macOS files
+.DS_Store
+**/.DS_Store
+

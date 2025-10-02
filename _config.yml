@@ -9,7 +9,7 @@ linkedin_username: jarretangbazo
 
 # Build Settings
 markdown: kramdown
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap

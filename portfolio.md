@@ -146,7 +146,7 @@ A collection of data science projects focused on energy and infrastructure finan
 I'm always looking for opportunities to apply data science to African energy and infrastructure challenges.
 
 <div class="cta-buttons" style="justify-content: center;">
-    <a href="mailto:your.email@example.com" class="btn primary">Discuss a Project</a>
+    <a href="mailto:{{ site.email }}" class="btn primary">Discuss a Project</a>
     <a href="resume.html" class="btn secondary">View Resume</a>
 </div>
 

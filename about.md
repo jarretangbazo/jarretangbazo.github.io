@@ -178,6 +178,6 @@ I maintain current expertise through ongoing professional development in data sc
 I'm always interested in discussing data science opportunities in African energy and infrastructure development.
 
 <div class="cta-buttons">
-    <a href="mailto:your.email@example.com" class="btn primary">Get in Touch</a>
+    <a href="mailto:{{ site.email }}" class="btn primary">Get in Touch</a>
     <a href="resume.html" class="btn secondary">View Resume</a>
 </div>
