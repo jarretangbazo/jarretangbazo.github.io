@@ -4,8 +4,8 @@ url: "https://jarretangbazo.github.io"
 baseurl: ""
 
 author: Jarret Angbazo
-email: your.email@example.com   # TODO: replace with your real email
-linkedin: https://linkedin.com/in/yourprofile   # TODO: replace with your real LinkedIn URL
+# email: jarretangbazo@gmail.com   # TODO: replace with your real email
+linkedin: https://linkedin.com/in/jarretangbazo
 github: jarretangbazo
 
 markdown: kramdown

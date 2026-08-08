@@ -9,7 +9,7 @@ permalink: /resume/
 <p>Research methodologist and applied economist. Quantitative research and causal inference across Sub-Saharan Africa, now applying that background broadly.</p>
 
 <a class="btn primary" href="{{ '/assets/documents/Jarret-Angbazo-Resume.pdf' | relative_url }}">Download resume (PDF)</a>
-<p class="placeholder">Upload your actual resume PDF to assets/documents/ so this link works.</p>
+<!-- <p class="placeholder">Upload your actual resume PDF to assets/documents/ so this link works.</p> -->
 
 <hr class="section-divider">
 
