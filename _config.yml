@@ -1,0 +1,36 @@
+title: Jarret Angbazo
+description: Applied economist and research methodologist. Notes on Nigerian development, data, and soccer.
+url: "https://jarretangbazo.github.io"
+baseurl: ""
+
+author: Jarret Angbazo
+email: your.email@example.com   # TODO: replace with your real email
+linkedin: https://linkedin.com/in/yourprofile   # TODO: replace with your real LinkedIn URL
+github: jarretangbazo
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
