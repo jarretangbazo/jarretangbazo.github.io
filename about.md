@@ -43,6 +43,7 @@ permalink: /about/
 
 <h2>Get in touch</h2>
 <p>
-  <a href="mailto:{{ site.email }}">Email me</a> or find me on
+  <!-- <a href="mailto:{{ site.email }}">Email me</a> or find me on -->
+  Reach me at <span class="js-email" data-user="jarret" data-domain="gmail.com"></span>, or find me on
   <a href="{{ site.linkedin }}">LinkedIn</a>.
 </p>

@@ -83,7 +83,8 @@ permalink: /resume/
 
 <h2>Contact</h2>
 <p>
-  <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+  <!-- <a href="mailto:{{ site.email }}">{{ site.email }}</a><br> -->
+  <span class="js-email" data-user="jarret" data-domain="gmail.com"></span><br>
   <a href="{{ site.linkedin }}">LinkedIn</a> ·
   <a href="https://github.com/{{ site.github }}">GitHub</a>
 </p>
