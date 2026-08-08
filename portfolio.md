@@ -36,9 +36,7 @@ permalink: /portfolio/
 <hr class="section-divider">
 
 <p class="placeholder">
-  More projects in progress &mdash; including an Abuja bus route planner and a
-  Nasarawa State election forecasting project. Details to be added as they're
-  further along.
+  More projects in progress...
 </p>
 
 <h2>Interested in working together?</h2>

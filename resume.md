@@ -18,7 +18,7 @@ permalink: /resume/
 <div class="resume-block">
   <div class="resume-role">
     <h3>Research Methodologist II</h3>
-    <span class="dates placeholder">[add dates]</span>
+    <span class="dates placeholder">Jan 2023 - Mar 2025</span>
   </div>
   <p class="resume-org">NORC at the University of Chicago</p>
   <ul class="bullets placeholder">
@@ -29,7 +29,7 @@ permalink: /resume/
 <div class="resume-block">
   <div class="resume-role">
     <h3>Research Methodologist I</h3>
-    <span class="dates placeholder">[add dates]</span>
+    <span class="dates placeholder">Nov 2020 - Dec 2022</span>
   </div>
   <p class="resume-org">NORC at the University of Chicago</p>
   <ul class="bullets placeholder">
@@ -64,7 +64,7 @@ permalink: /resume/
 <div class="resume-block">
   <div class="resume-role">
     <h3>Master of Public Policy</h3>
-    <span class="dates placeholder">[add year]</span>
+    <span class="dates placeholder">2020</span>
   </div>
   <p class="resume-org">University of Chicago, Harris School of Public Policy</p>
   <p>Certificate in Survey Methodology</p>
@@ -73,7 +73,7 @@ permalink: /resume/
 <div class="resume-block">
   <div class="resume-role">
     <h3>BA Economics &amp; BS Mathematics</h3>
-    <span class="dates placeholder">[add year]</span>
+    <span class="dates placeholder">2013</span>
   </div>
   <p class="resume-org">University of Maryland, College Park</p>
 </div>
