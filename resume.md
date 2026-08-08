@@ -39,10 +39,10 @@ permalink: /resume/
 
 <div class="resume-block">
   <div class="resume-role">
-    <h3>[Add title]</h3>
-    <span class="dates placeholder">[add dates]</span>
+    <h3>Research Associate</h3>
+    <span class="dates placeholder">Jan 2018 - Aug 2018</span>
   </div>
-  <p class="resume-org">Development Economics Research Group, World Bank</p>
+  <p class="resume-org">Innovations for Poverty Action</p>
   <ul class="bullets placeholder">
     <li>[Add 2&ndash;3 bullet points describing scope and real accomplishments in this role]</li>
   </ul>
@@ -50,14 +50,15 @@ permalink: /resume/
 
 <div class="resume-block">
   <div class="resume-role">
-    <h3>[Add title]</h3>
-    <span class="dates placeholder">[add dates]</span>
+    <h3>Short Term Consultant (STC)</h3>
+    <span class="dates placeholder">Nov 2014 - Oct 2017</span>
   </div>
-  <p class="resume-org">Innovations for Poverty Action</p>
+  <p class="resume-org">Development Economics Research Group, World Bank</p>
   <ul class="bullets placeholder">
     <li>[Add 2&ndash;3 bullet points describing scope and real accomplishments in this role]</li>
   </ul>
 </div>
+
 
 <h2>Education</h2>
 
@@ -84,7 +85,7 @@ permalink: /resume/
 <h2>Contact</h2>
 <p>
   <!-- <a href="mailto:{{ site.email }}">{{ site.email }}</a><br> -->
-  <span class="js-email" data-user="jarret" data-domain="gmail.com"></span><br>
+  <span class="js-email" data-user="jarretangbazo" data-domain="gmail.com"></span><br>
   <a href="{{ site.linkedin }}">LinkedIn</a> ·
   <a href="https://github.com/{{ site.github }}">GitHub</a>
 </p>

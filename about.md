@@ -21,7 +21,7 @@ permalink: /about/
   fieldwork spans more than 20 countries across Sub-Saharan Africa.
 </p>
 
-<h2>Education</h2>
+<!-- <h2>Education</h2>
 <ul class="list-plain">
   <li class="entry">
     <h3>Master of Public Policy</h3>
@@ -31,19 +31,19 @@ permalink: /about/
     <h3>BA Economics &amp; BS Mathematics</h3>
     <p>University of Maryland, College Park</p>
   </li>
-</ul>
+</ul> -->
 
-<h2>Why this site</h2>
+<!-- <h2>Why this site</h2>
 <p>
   This is a place to put my portfolio and resume in one spot, and to start writing
   in public &mdash; on Nigerian development topics I care about (renewable energy,
   health systems and national health insurance), and on other things I follow
   closely, like soccer.
-</p>
+</p> -->
 
 <h2>Get in touch</h2>
 <p>
   <!-- <a href="mailto:{{ site.email }}">Email me</a> or find me on -->
-  Reach me at <span class="js-email" data-user="jarret" data-domain="gmail.com"></span>, or find me on
+  Reach me at <span class="js-email" data-user="jarretangbazo" data-domain="gmail.com"></span>, or find me on
   <a href="{{ site.linkedin }}">LinkedIn</a>.
 </p>
